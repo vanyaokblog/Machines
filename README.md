@@ -25,7 +25,7 @@
 
 - **Таблица «Cars»** _(idCar, idBrand, Model, Description , ProductionDate, Image)_ содержит информацию об автомобилях
 - **Таблица «Brands»** _(idBrand, NameBrand)_ содержит информацию о брендах автомобилей
-- **Таблица «Types»** _(idTypes, NameTypes, DescriptionType)_ одержит информацию о типах (комплектациях) автомобилей
+- **Таблица «Types»** _(idTypes, NameTypes, DescriptionType)_ содержит информацию о типах (комплектациях) автомобилей
 - **Таблица «CarTypes»** _(idCar, idTypes, Price, Discount)_ содержит информацию о типах автомобилей и их ценах
 
 
