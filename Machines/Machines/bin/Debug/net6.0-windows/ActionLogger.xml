@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ActionLogger</name>
+    </assembly>
+    <members>
+        <member name="T:ActionLogger.Logger">
+            <summary>
+            Класс Logger предназначен для логирования действий
+            </summary>
+        </member>
+        <member name="F:ActionLogger.Logger._logFilePath">
+            <summary>
+            Путь к файлу лога
+            </summary>
+        </member>
+        <member name="M:ActionLogger.Logger.#ctor">
+            <summary>
+            Конструктор класса Logger. Создает файл лога в папке Debug
+            </summary>
+        </member>
+        <member name="M:ActionLogger.Logger.LogAction(System.String)">
+            <summary>
+            Метод для записи действия в лог
+            </summary>
+            <param name="action">Действие, которое нужно записать в лог</param>
+        </member>
+    </members>
+</doc>

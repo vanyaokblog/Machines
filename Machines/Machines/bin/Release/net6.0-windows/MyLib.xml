@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyLib</name>
+    </assembly>
+    <members>
+        <member name="T:MyLib.Brand">
+            <summary>
+            Класс, представляющий бренд автомобиля
+            </summary>
+        </member>
+        <member name="P:MyLib.Brand.Id">
+            <summary>
+            Уникальный идентификатор бренда
+            </summary>
+        </member>
+        <member name="P:MyLib.Brand.Name">
+            <summary>
+            Название бренда
+            </summary>
+        </member>
+        <member name="P:MyLib.Brand.Cars">
+            <summary>
+            Список автомобилей этого бренда
+            </summary>
+        </member>
+        <member name="T:MyLib.Car">
+            <summary>
+            Класс, представляющий автомобиль
+            </summary>
+        </member>
+        <member name="P:MyLib.Car.Id">
+            <summary>
+            Уникальный идентификатор автомобиля
+            </summary>
+        </member>
+        <member name="P:MyLib.Car.BrandId">
+            <summary>
+            Идентификатор бренда автомобиля
+            </summary>
+        </member>
+        <member name="P:MyLib.Car.Brand">
+            <summary>
+            Бренд автомобиля
+            </summary>
+        </member>
+        <member name="P:MyLib.Car.Model">
+            <summary>
+            Модель автомобиля
+            </summary>
+        </member>
+        <member name="P:MyLib.Car.Description">
+            <summary>
+            Описание автомобиля
+            </summary>
+        </member>
+        <member name="P:MyLib.Car.ProductionDate">
+            <summary>
+            Дата производства автомобиля
+            </summary>
+        </member>
+        <member name="P:MyLib.Car.Image">
+            <summary>
+            Изображение автомобиля
+            </summary>
+        </member>
+        <member name="P:MyLib.Car.StartingPrice">
+            <summary>
+            Начальная цена автомобиля
+            </summary>
+        </member>
+        <member name="P:MyLib.Car.CarTypes">
+            <summary>
+            Список типов автомобиля
+            </summary>
+        </member>
+        <member name="T:MyLib.CarType">
+            <summary>
+            Класс, представляющий тип автомобиля
+            </summary>
+        </member>
+        <member name="P:MyLib.CarType.CarId">
+            <summary>
+            Идентификатор автомобиля
+            </summary>
+        </member>
+        <member name="P:MyLib.CarType.Car">
+            <summary>
+            Автомобиль
+            </summary>
+        </member>
+        <member name="P:MyLib.CarType.TypeId">
+            <summary>
+            Идентификатор типа
+            </summary>
+        </member>
+        <member name="P:MyLib.CarType.Type">
+            <summary>
+            Тип автомобиля
+            </summary>
+        </member>
+        <member name="P:MyLib.CarType.Price">
+            <summary>
+            Цена автомобиля
+            </summary>
+        </member>
+        <member name="P:MyLib.CarType.Discount">
+            <summary>
+            Скидка на автомобиль
+            </summary>
+        </member>
+        <member name="P:MyLib.CarType.FinalPrice">
+            <summary>
+            Итоговая цена автомобиля
+            </summary>
+        </member>
+        <member name="M:MyLib.CarType.GetFinalPrice">
+            <summary>
+            Расчет итоговой цены автомобиля
+            </summary>
+            <returns>Итоговая цена.</returns>
+        </member>
+        <member name="M:MyLib.CarType.GenerateReceipt(System.String,System.String)">
+            <summary>
+            Генерация чека для автомобиля
+            </summary>
+            <param name="brand">Бренд автомобиля</param>
+            <param name="model">Модель автомобиля</param>
+            <returns>Чек</returns>
+        </member>
+        <member name="T:MyLib.Type">
+            <summary>
+            Класс, представляющий тип автомобиля
+            </summary>
+        </member>
+        <member name="P:MyLib.Type.Id">
+            <summary>
+            Уникальный идентификатор типа
+            </summary>
+        </member>
+        <member name="P:MyLib.Type.Name">
+            <summary>
+            Название типа
+            </summary>
+        </member>
+        <member name="P:MyLib.Type.Description">
+            <summary>
+            Описание типа
+            </summary>
+        </member>
+        <member name="P:MyLib.Type.CarTypes">
+            <summary>
+            Список типов автомобиля
+            </summary>
+        </member>
+    </members>
+</doc>

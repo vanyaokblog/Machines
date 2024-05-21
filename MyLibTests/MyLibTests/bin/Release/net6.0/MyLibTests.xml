@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyLibTests</name>
+    </assembly>
+    <members>
+        <member name="T:MyLib.Tests.CarTypeTests">
+            <summary>
+            Класс для тестирования функционала класса CarType
+            </summary>
+        </member>
+        <member name="M:MyLib.Tests.CarTypeTests.GetFinalPrice_PriceAndDiscount_ReturnsCorrectFinalPrice">
+            <summary>
+            Тестирование метода GetFinalPrice класса CarType
+            </summary>
+        </member>
+        <member name="M:MyLib.Tests.CarTypeTests.GenerateReceipt_BrandModelAndType_ReturnsCorrectReceipt">
+            <summary>
+            Тестирование метода GenerateReceipt класса CarType
+            </summary>
+        </member>
+    </members>
+</doc>

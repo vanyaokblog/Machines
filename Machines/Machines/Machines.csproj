@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Images\Luxe\**" />
+    <EmbeddedResource Remove="Images\Luxe\**" />
+    <None Remove="Images\Luxe\**" />
+    <Page Remove="Images\Luxe\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\Bebas Neue.ttf" />
+    <None Remove="Fonts\Druk Wide Cyr Heavy.otf" />
+    <None Remove="Fonts\Druk Wide Cyr Medium.otf" />
+    <None Remove="Fonts\Druk Wide Cyr Super.otf" />
+    <None Remove="Fonts\Pershotravneva55.ttf" />
+    <None Remove="Images\changancs35plus.png" />
+    <None Remove="Images\changanunik.png" />
+    <None Remove="Images\hyundaicreta.png" />
+    <None Remove="Images\hyundaisolaris.png" />
+    <None Remove="Images\toyotacamry.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.32" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ActionLogger">
+      <HintPath>..\..\ActionLogger\ActionLogger\bin\Debug\net6.0\ActionLogger.dll</HintPath>
+    </Reference>
+    <Reference Include="MyLib">
+      <HintPath>..\..\MyLib\MyLib\bin\Debug\net6.0\MyLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\Bebas Neue.ttf" />
+    <Resource Include="Fonts\Pershotravneva55.ttf" />
+    <Resource Include="Images\changancs35plus.png" />
+    <Resource Include="Images\changanunik.png" />
+    <Resource Include="Images\hyundaicreta.png" />
+    <Resource Include="Images\hyundaisolaris.png" />
+    <Resource Include="Images\toyotacamry.png" />
+  </ItemGroup>
+
+</Project>
